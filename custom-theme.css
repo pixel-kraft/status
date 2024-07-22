@@ -16,7 +16,7 @@
     --down-border-left-color: #eb3b5a;
     --down-background-color: #ffd0d2;
     --degraded-border-left-color: #f7b731;
-    --up-border-left-color: color-mix(in srgb, var(--base-color) 10%, #eee);
+    --up-border-left-color: #20bf6b;
     --tag-color: #ffffff;
     --tag-up-background-color: color-mix(in srgb, var(--base-color) 10%, #eee);
     --tag-down-background-color: #eb3b5a;
@@ -33,7 +33,7 @@
 }
 
 body {
-    margin-top: 150px;
+    margin-top: 150px!important;
 }
 
 nav {
@@ -43,7 +43,8 @@ nav {
     width: 100%;
 }
 
-.logo img {
+/* Added attributes to override height, can't add important due to animation */
+.logo[href] img[src] {
     height: 100px;
     animation-timeline: scroll(root);
     animation-name: scale;
