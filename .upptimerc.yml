@@ -24,7 +24,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.pixel-kraft.de
   # baseUrl: /your-repo-name
-  logoUrl: /logo.svg
+  logoUrl: https://status.pixel-kraft.de/logo.svg
   theme: light
   name: Status
   metaTags:
