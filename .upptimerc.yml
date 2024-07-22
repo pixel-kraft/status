@@ -2,6 +2,9 @@
 owner: pixel-kraft # Your GitHub organization or username, where this repository lives
 repo: status # The name of this repository
 
+assignees:
+  - Chrissi2812
+
 sites:
   - name: Webserver Verwaltung
     url: https://server.pixel-kraft.de/
@@ -21,15 +24,90 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.pixel-kraft.de
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  #  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  name: Status
+  metaTags:
+    - name: "color-scheme"
+      content: "dark light"
+    - name: "robots"
+      content: "noindex"
+  #  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  #  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
-    - title: Status
-      href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+runner: "[self-hosted, linux]"
+
+i18n:
+  activeIncidentSummary: "Geöffnet am $DATE mit $POSTS Updates"
+  activeIncidents: "Derzeitige Störungen"
+  allSystemsOperational: "Alle Systeme sind betriebsbereit"
+  averageResponseTime: "Durchschnittliche Antwortzeit: $TIMEms"
+  averageResponseTimeTitle: "Durchschnittliche Antwort"
+  degraded: "Beeinträchtigt"
+  down: "Nicht Erreichbar"
+  duration: "Dauer"
+  duration1Y: "1 Jahr"
+  duration24H: "24 Std."
+  duration30D: "30 Tage"
+  duration7D: "7 Tage"
+  durationAll: "Gesamt"
+  durationMin: "$DURATION Minuten"
+  errorHome: "Zurück zur Startseite"
+  errorIntro: "Es ist ein Fehler aufgetreten beim Abruf der aktuellsten Status Details"
+  errorText: "Du kannst es in paar Minuten erneut probieren"
+  errorTitle: "Es ist ein Fehler aufgetreten"
+  footer: "Dieses Seite ist [Open Source]($REPO), erstellt mit [Upptime](https://upptime.js.org)"
+  incidentBack: "← Zurück zur Übersicht"
+  incidentClosedAt: "Behoben am"
+  incidentCommentSummary: "Gepostet am $DATE von $AUTHOR"
+  incidentCompleted: "Abgeschlossen"
+  incidentDetails: "Details zum Vorfall"
+  incidentFixed: "Behoben"
+  incidentOngoing: "Fortlaufend"
+  incidentOpenedAt: "Geöffnet am"
+  incidentReport: "Vorfallbericht #$NUMBER →"
+  incidentScheduled: "Geplant"
+  incidentTitle: "Vorfall $NUMBER – Details"
+  incidentViewOnGitHub: "Auf GitHub anzeigen und abonnieren"
+  liveStatus: "Live-Status"
+  loading: "Wird geladen"
+  locale: "de-DE"
+  ms: "ms"
+  navGitHub: "GitHub"
+  overallUptime: "Gesamtverfügbarkeit: $UPTIME"
+  overallUptimeTitle: "Gesamtverfügbarkeit"
+  pastIncidents: "Vergangene Vorfälle"
+  pastIncidentsResolved: "Gelöst in $MINUTES Minuten mit $POSTS Updates"
+  pastScheduledMaintenance: "Frühere geplante Wartungsarbeiten"
+  rateLimitExceededCopyPastePAT: "Kopieren und fügen Sie Ihr Token ein"
+  rateLimitExceededErrorFix: "Sie können noch eine Stunde warten und das Limit Ihrer\
+    \ IP-Adresse wird wiederhergestellt. Alternativ können Sie Ihren persönlichen GitHub-Zugriffstoken\
+    \ hinzufügen, der Ihnen zusätzliche 5.000 Anfragen pro Stunde ermöglicht."
+  rateLimitExceededErrorHowCanFix: "Wie kann ich es reparieren?"
+  rateLimitExceededErrorMeaning: "Diese Website verwendet die GitHub-API, um in Echtzeit\
+    \ auf Daten zum Status unserer Websites zuzugreifen. Standardmäßig erlaubt GitHub\
+    \ jeder IP-Adresse 60 Anfragen pro Stunde, die Sie verbraucht haben."
+  rateLimitExceededGeneratePAT: "Erfahren Sie, wie Sie ein persönliches Zugriffstoken\
+    \ generieren"
+  rateLimitExceededGitHubPAT: "Persönlicher GitHub-Zugriffstoken"
+  rateLimitExceededHasSet: "Sie haben einen persönlichen Zugriffstoken gesetzt."
+  rateLimitExceededIntro: "Sie haben die Anzahl der Anfragen überschritten, die Sie\
+    \ in einer Stunde stellen können. Sie müssen also warten, bevor Sie wieder auf diese\
+    \ Website zugreifen können. Alternativ können Sie ein persönliches GitHub-Zugriffstoken\
+    \ hinzufügen, um diese Website weiterhin nutzen zu können."
+  rateLimitExceededRemoveToken: "Token entfernen"
+  rateLimitExceededSaveToken: "Token speichern"
+  rateLimitExceededTitle: "Ratenbegrenzung überschritten"
+  rateLimitExceededWhatDoesErrorMean: "Was bedeutet dieser Fehler?"
+  responseTimeMs: "Reaktionszeit (ms)"
+  scheduledMaintenance: "Geplante Wartung"
+  scheduledMaintenanceSummaryStarted: "Begonnen am $DATE für $DURATION Minuten"
+  scheduledMaintenanceSummaryStarts: "Beginnt am $DATE für $DURATION Minuten"
+  sevelDayResponseTime: "7 Tage Reaktionszeit"
+  startedAt: "Fing an bei"
+  startsAt: "Startet um"
+  up: "Verfügbar"
