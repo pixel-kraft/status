@@ -12,7 +12,7 @@ sites:
     port: 993
     check: "tcp-ping"
   - name: Telefon
-    url: xkraftx-dyndns.org
+    url: xkraftx.dyndns.org
     port: 6060
     check: "tcp-ping"
 
