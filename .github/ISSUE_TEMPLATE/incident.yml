@@ -1,0 +1,28 @@
+name: Vorfall
+description: Einen neuen Vorfallbericht erstellen
+labels: [ "status" ]
+body:
+  - type: input
+    id: start
+    attributes:
+      label: Beginn des Vorfalls
+      placeholder: 2021-08-24T13:00:00.220Z
+    validations:
+      required: true
+  - type: input
+    id: end
+    attributes:
+      label: Ende des Vorfalls
+      placeholder: 2021-08-24T13:00:00.220Z
+    validations:
+      required: false
+  - type: dropdown
+    id: affected
+    attributes:
+      label: Betroffene Dienste
+      options:
+        - n/a
+        - e-mail
+        - telefon
+        - webserver-verwaltung
+        - webserver-websites
