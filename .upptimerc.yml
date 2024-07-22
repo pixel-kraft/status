@@ -27,7 +27,7 @@ status-website:
   logoUrl: https://status.pixel-kraft.de/logo.svg
   theme: light
   name: Status
-  themeUrl: https://status.pixel-kraft.de/custom-theme.css
+  themeUrl: https://status.pixel-kraft.de/custom-theme.css?v2
   metaTags:
     - name: "robots"
       content: "noindex"
