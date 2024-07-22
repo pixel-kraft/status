@@ -39,7 +39,7 @@ status-website:
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
-runner: "[self-hosted, linux]"
+runner: "[self-hosted, linux, x64]"
 
 i18n:
   activeIncidentSummary: "Geöffnet am $DATE mit $POSTS Updates"
