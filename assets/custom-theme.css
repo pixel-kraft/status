@@ -1,0 +1,45 @@
+@property --base-color {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #213a8f;
+}
+
+:root {
+    --base-color: #213a8f;
+    --body-background-color: color-mix(in srgb, var(--base-color) 10%, #fff);
+    --body-text-color: color-mix(in srgb, var(--base-color) 40%, #000);
+    --nav-border-bottom-color: color-mix(in srgb, var(--base-color) 10%, #eee);
+}
+
+body {
+    margin-top: 150px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.logo img {
+    height: 100px;
+    animation-timeline: scroll(root);
+    animation-name: scale;
+    animation-timing-function: ease-in-out;
+    animation-range-end: 150px;
+    animation-fill-mode: forwards;
+}
+
+nav .container {
+    padding: 0.5rem 2rem;
+}
+
+@keyframes scale {
+    from {
+        height: 100px;
+    }
+    to {
+        height: 70px;
+    }
+}

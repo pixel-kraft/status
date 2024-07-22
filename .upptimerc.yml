@@ -27,9 +27,8 @@ status-website:
   logoUrl: https://status.pixel-kraft.de/logo.svg
   theme: light
   name: Status
+  themeUrl: https://status.pixel-kraft.de/custom-theme.css
   metaTags:
-    - name: "color-scheme"
-      content: "light dark"
     - name: "robots"
       content: "noindex"
   #  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
