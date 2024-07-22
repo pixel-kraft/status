@@ -24,11 +24,12 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.pixel-kraft.de
   # baseUrl: /your-repo-name
-  #  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: /logo.svg
+  theme: light
   name: Status
   metaTags:
     - name: "color-scheme"
-      content: "dark light"
+      content: "light dark"
     - name: "robots"
       content: "noindex"
   #  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
