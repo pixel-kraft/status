@@ -9,6 +9,27 @@
     --body-background-color: color-mix(in srgb, var(--base-color) 10%, #fff);
     --body-text-color: color-mix(in srgb, var(--base-color) 40%, #000);
     --nav-border-bottom-color: color-mix(in srgb, var(--base-color) 10%, #eee);
+    --card-background-color: #ffffff;
+    --nav-background-color: #ffffff;
+    --nav-current-border-bottom-color: color-mix(in srgb, var(--base-color) 10%, #eee);
+    --card-border-color: #d8e8e4;
+    --down-border-left-color: #eb3b5a;
+    --down-background-color: #ffd0d2;
+    --degraded-border-left-color: #f7b731;
+    --up-border-left-color: color-mix(in srgb, var(--base-color) 10%, #eee);
+    --tag-color: #ffffff;
+    --tag-up-background-color: color-mix(in srgb, var(--base-color) 10%, #eee);
+    --tag-down-background-color: #eb3b5a;
+    --tag-degraded-background-color: #f7b731;
+    --change-background-color: #f7b731;
+    --error-button-border-color: #1a46ad;
+    --error-button-background-color: #3867d6;
+    --error-button-color: #ffffff;
+    --submit-button-border-color: #1a46ad;
+    --submit-button-background-color: #3867d6;
+    --submit-button-color: #ffffff;
+    --graph-opacity: 1;
+    --graph-filter: none;
 }
 
 body {
