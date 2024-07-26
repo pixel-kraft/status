@@ -4,19 +4,19 @@
     "url": "https://server.pixel-kraft.de/",
     "icon": "https://icons.duckduckgo.com/ip3/server.pixel-kraft.de.ico",
     "slug": "webserver-verwaltung",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 382,
-    "timeDay": 306,
-    "timeWeek": 382,
-    "timeMonth": 382,
-    "timeYear": 382,
+    "status": "up",
+    "uptime": "99.63%",
+    "uptimeDay": "98.34%",
+    "uptimeWeek": "99.63%",
+    "uptimeMonth": "99.63%",
+    "uptimeYear": "99.63%",
+    "time": 373,
+    "timeDay": 289,
+    "timeWeek": 373,
+    "timeMonth": 373,
+    "timeYear": 373,
     "dailyMinutesDown": {
-      "2024-07-27": 0
+      "2024-07-27": 24
     }
   },
   {
@@ -24,19 +24,19 @@
     "url": "https://pixel-kraft.de/",
     "icon": "https://icons.duckduckgo.com/ip3/pixel-kraft.de.ico",
     "slug": "webserver-websites",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 1725,
-    "timeDay": 1692,
-    "timeWeek": 1725,
-    "timeMonth": 1725,
-    "timeYear": 1725,
+    "status": "up",
+    "uptime": "99.63%",
+    "uptimeDay": "98.34%",
+    "uptimeWeek": "99.63%",
+    "uptimeMonth": "99.63%",
+    "uptimeYear": "99.63%",
+    "time": 1719,
+    "timeDay": 1672,
+    "timeWeek": 1719,
+    "timeMonth": 1719,
+    "timeYear": 1719,
     "dailyMinutesDown": {
-      "2024-07-27": 0
+      "2024-07-27": 24
     }
   },
   {
