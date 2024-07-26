@@ -4,7 +4,7 @@
     "url": "https://server.pixel-kraft.de/",
     "icon": "https://icons.duckduckgo.com/ip3/server.pixel-kraft.de.ico",
     "slug": "webserver-verwaltung",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -15,16 +15,18 @@
     "timeWeek": 382,
     "timeMonth": 382,
     "timeYear": 382,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-07-27": 0
+    }
   },
   {
     "name": "Webserver Websites",
     "url": "https://pixel-kraft.de/",
     "icon": "https://icons.duckduckgo.com/ip3/pixel-kraft.de.ico",
     "slug": "webserver-websites",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -33,7 +35,9 @@
     "timeWeek": 1725,
     "timeMonth": 1725,
     "timeYear": 1725,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-07-27": 0
+    }
   },
   {
     "name": "E-Mail",
