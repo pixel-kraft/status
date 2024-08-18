@@ -65,19 +65,19 @@
     "url": "xkraftx.dyndns.org",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "telefon",
-    "status": "down",
-    "uptime": "99.96%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.96%",
-    "uptimeYear": "99.96%",
+    "status": "up",
+    "uptime": "99.89%",
+    "uptimeDay": "98.03%",
+    "uptimeWeek": "99.72%",
+    "uptimeMonth": "99.89%",
+    "uptimeYear": "99.89%",
     "time": 7,
     "timeDay": 2,
     "timeWeek": 2,
     "timeMonth": 7,
     "timeYear": 7,
     "dailyMinutesDown": {
-      "2024-08-18": 0,
+      "2024-08-18": 28,
       "2024-07-27": 15
     }
   }
